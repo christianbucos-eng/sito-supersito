@@ -1,0 +1,10 @@
+body { background-color: rgb(216, 216, 216); }
+
+.titolo {font-size: 60 ;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        background-color: rgb(126, 126, 126);
+        color: rgb(255, 255, 255);
+        }
+
