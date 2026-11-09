@@ -1,31 +1,54 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>smartFridge</title>
-        <link rel="stylesheet" href="styles.css">
-        <body>
-            <h1><p class="titolo">SmartFridge</p></h1>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>smartFridge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-            <h1>seleziona gli ingredienti</h1>
-            
-            <h2>ingredienti di base:</h2>
-                <label><input type="checkbox" class="ingrediente" value="uova"> Uova</label><br>
-                <label><input type="checkbox" class="ingrediente" value="farina"> Farina</label><br>
-                <label><input type="checkbox" class="ingrediente" value="latte"> Latte</label><br>
-                <label><input type="checkbox" class="ingrediente" value="burro"> burro</label><br>
-                <label><input type="checkbox" class="ingrediente" value="riso"> riso</label><br>
+    <div class="titolo">SmartFridge</div>
 
-            <h2>primi e panetteria:</h2>
-                <label><input type="checkbox" class="ingrediente" value="pasta"> pasta</label><br>
-                <label><input type="checkbox" class="ingrediente" value="pane"> pane</label><br>
-                <label><input type="checkbox" class="ingrediente" value="patate"> patate</label><br>
+    <h1>Seleziona gli ingredienti</h1>
 
-            <h2>latticini e formaggi:</h2>
-                <label><input type="checkbox" class="ingrediente" value="formaggio"> formaggio</label><br>
-                <label><input type="checkbox" class="ingrediente" value="mozzarella"> mozzarella</label><br>
-                <label><input type="checkbox" class="ingrediente" value="panna"> panna</label><br>
+    <h2>Ingredienti di base:</h2>
+    <div class="caselle">
+        <label><input type="checkbox" value="uova"> Uova</label><br>
+        <label><input type="checkbox" value="farina"> Farina</label><br>
+        <label><input type="checkbox" value="latte"> Latte</label><br>
+        <label><input type="checkbox" value="burro"> Burro</label><br>
+        <label><input type="checkbox" value="riso"> Riso</label><br>
+        <label><input type="checkbox" value="olio"> Olio d'oliva</label><br>
+        <label><input type="checkbox" value="sale"> Sale</label><br>
+        <label><input type="checkbox" value="pepe"> Pepe</label>
+    </div>
 
-            <p class="bottone"><a href="pagina_ricerca.html">bottone_ricerca></a></p>
-        </body>
-    </head>
+    <h2>Primi e panetteria:</h2>
+    <div class="caselle">
+        <label><input type="checkbox" value="pasta"> Pasta</label><br>
+        <label><input type="checkbox" value="pane"> Pane</label><br>
+        <label><input type="checkbox" value="patate"> Patate</label><br>
+        <label><input type="checkbox" value="cipolla"> Cipolla</label><br>
+        <label><input type="checkbox" value="aglio"> Aglio</label>
+    </div>
+
+    <h2>Latticini e formaggi:</h2>
+    <div class="caselle">
+        <label><input type="checkbox" value="formaggio"> Formaggio grattugiato</label><br>
+        <label><input type="checkbox" value="mozzarella"> Mozzarella</label><br>
+        <label><input type="checkbox" value="panna"> Panna da cucina</label>
+    </div>
+
+    <h2>Conserve e condimenti:</h2>
+    <div class="caselle">
+        <label><input type="checkbox" value="passata"> Passata di pomodoro</label><br>
+        <label><input type="checkbox" value="tonno_scatola"> Tonno in scatola</label><br>
+        <label><input type="checkbox" value="origano"> Origano</label>
+    </div>
+
+    <div class="bottone">
+        <a href="pagina_ricerca.html" style="color: inherit; text-decoration: none;">Ricerca</a>
+    </div>
+
+</body>
 </html>
